@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Assistant App
+
+A modern chat interface built with Next.js, featuring real-time text generation effects and a responsive design. This project was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Author
+
+👤 **Rayudu**
+- LinkedIn: [@Rayudu Bharani](https://linkedin.com/in/rayudu-bharani)
+- GitHub: [@RayuduBharani](https://github.com/RayuduBharani)
+- Portfolio: [Rayudu Bharani](https://rayudubharani.vercel.app/)
+
+Please replace the placeholder URLs with your actual social media profiles and portfolio links.
+
+## Features
+
+- Real-time chat interface with dynamic responses
+- Text generation effects for enhanced user experience
+- Modern UI components using shadcn/ui
+- Responsive design for all devices
+- API routes for chat functionality
 
 ## Getting Started
 
@@ -16,9 +35,25 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/              # App router pages and layouts
+│   ├── chat-interface.tsx    # Chat interface component
+│   └── api/          # API routes
+├── components/       # Reusable UI components
+│   └── ui/          # UI component library
+└── lib/             # Utility functions
+```
+
+## Technical Details
+
+This project uses:
+- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) for optimized font loading
+- TypeScript for type safety
+- Tailwind CSS for styling
+- shadcn/ui for UI components
 
 ## Learn More
 
